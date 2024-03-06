@@ -8,7 +8,7 @@ sh 'g++ main.cpp -o output'
 }
 }
 stage('Test'){
-strps{
+steps{
 sh './output'
 }
 }
